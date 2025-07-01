@@ -43,8 +43,7 @@ Aplikacja konsolowa w języku C#, która umożliwia planowanie trasy dostaw kuri
 1. **Sklonuj repozytorium:**
 
 ```bash
-git clone https://github.com/twoj-uzytkownik/planowanie-trasy-kuriera.git
-cd planowanie-trasy-kuriera
+gh repo clone Damigus/simple-application-for-the-shortest-courier-route
 ```
 
 2. **Podmień klucz API:**
