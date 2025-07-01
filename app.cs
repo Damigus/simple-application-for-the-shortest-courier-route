@@ -137,7 +137,7 @@ class Program
         {
             try
             {
-                string kluczApi = "AIzaSyD_cVqE7-Hz_3-uVu2iMZO0yOHnDEqdI4E"; // Klucz API Google Maps
+                string kluczApi = "klucz-api2"; // Klucz API Google Maps
                 var odpowiedz = await klient.GetAsync($"https://maps.googleapis.com/maps/api/directions/json?origin={poczatek}&destination={cel}&key={kluczApi}");
                 odpowiedz.EnsureSuccessStatusCode();
 
